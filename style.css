@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light',
+    'Helvetica 25 UltraLight', 'Helvetica Neue', Helvetica, Arial,
+    'Lucida Grande', sans-serif;
+  color: #999;
+
+  /* box-sizing: border-box; */
+}
+:root {
+  --background-color: #fff;
+  /*  --background-color: blueviolet;*/
+}
+.nav {
+  height: 80px;
+  width: 100%;
+  background: rgb(242, 242, 242);
+}
+.nav-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-content ul li {
+  display: inline-block;
+  padding: 30px 20px;
+}
+.nav-content ul li a:hover {
+  color: rgb(27, 26, 26);
+}
+
+.content-div {
+  height: 400px;
+  max-width: 80%;
+  background: var(--background-color);
+  margin: 50px auto;
+}
+.main {
+  height: 60px;
+  margin-bottom: 20px;
+  max-width: 100%;
+  background: var(--background-color);
+}
+.bio-text {
+  height: 340px;
+  width: 55%;
+  background: var(--background-color);
+  /* margin-right: 5%; */
+  margin-left: 5%;
+}
+.bio-photo {
+  height: 340px;
+  width: 35%;
+  background: var(--background-color);
+  /* margin-left: 5%; */
+  margin-left: 5%;
+}
+
+/* image styling */
+.bio-photo .image img {
+  height: 310px;
+  width: 310px;
+  margin: -35px 25px;
+  border: 1px solid greenyellow;
+  border-radius: 5px;
+}
+
+/* .image {
+  margin-bottom: 20px;
+} */
+.bio-content {
+  display: flex;
+  margin-top: 22px;
+}
+
+/* hello text */
+.main h1 {
+  font-weight: 300;
+  font-size: 2.625rem;
+  line-height: 1.2;
+  color: #333;
+  margin-left: 5%;
+}
+/* gradiant hello text */
+/* .main h1 {
+  background: linear-gradient(90deg, #00dbde, #fc00ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+} */
+
+/* first phrase */
+.first_phrase {
+  font-weight: 300;
+  color: #666;
+  margin-bottom: 40px;
+  background: var(--background-color);
+}
+/* .first_phrase p {
+  background: linear-gradient(90deg, #54ea09, #04a5a8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+} */
+
+/* 2nd phrase */
+.sec_phrase {
+  font-weight: 300;
+  color: #666;
+  margin-bottom: 50px;
+  background: var(--background-color);
+}
+/* .sec_phrase p {
+  background: linear-gradient(90deg, #54ea09, #04a5a8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+} */
+/* social icon */
+.social {
+  background: var(--background-color);
+  margin-bottom: 40px;
+}
+.social img {
+  height: 20px;
+  width: 20px;
+}
+.social ul li {
+  display: inline-block;
+  padding: 6px;
+}
+.resume {
+  background: var(--background-color);
+}
+.resume-box {
+  border: 1px solid gray;
+  padding: 5px 18px;
+  width: 18%;
+  border-radius: 15px;
+}
+
+.resume-box a {
+  font-size: 0.875rem;
+}
+
+/* linkedin */
+/* 
+https://www.linkedin.com/in/md-anawrul-kabir-fahad-a00b26238/
+ */
+
+/* facebook */
+/* 
+https://www.facebook.com/profile.php?id=100073283195770
+ */
+
+/* github */
+/* 
+https://github.com/Anawrulkabir
+ */
+
+/* resume pdf */
